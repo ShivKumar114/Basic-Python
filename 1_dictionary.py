@@ -1,0 +1,21 @@
+# DICTIONARY IS THE COLLECTION OF KEYS VALUE PAIRS
+# DICTIONARY IS UNORDED, MUTABLE , INDEXED , CANNOT CONTAIN MJULTIPLE KEYS 
+
+
+# DICTIONARY KE LIYE CURLY  BRACES USE HOTA HAI = { }.
+# SETS KE LIYE V CURLY BRACES KA USE HOTA HAI 
+# KEYS-  DICTIONARY MEIN LEFT HAND SIDE JO LIKHA HOTA HAI USKO KEYS BOLTE HAI.
+# VALUES - DICTIONARY MEIN JO RIGHT HAND SIDE MEIN LIKHA HOTA HAI USKO VALUES BOLTE HAI.
+ 
+
+#SIMPLE DICTIONARY SYNTAX.
+world = {
+          "key": "value", 
+          "name": "shiv",     
+          "marks":"100",
+          "city": "Bhagalpur",
+          "list": "80843,60104"
+        }
+print(world["key"])    # KEY KA VALUE OUTPUT AYYEGA 
+print(world["city"])   # output Bhagalpur
+ 
